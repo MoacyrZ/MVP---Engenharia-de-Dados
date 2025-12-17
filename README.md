@@ -44,8 +44,9 @@ contexto acadêmico do MVP.
 O pipeline de dados foi estruturado seguindo o padrão **Lakehouse**, com camadas bem
 definidas:
 
+```text
 Bronze → Silver → Gold (Data Warehouse)
-
+```
 
 - **Bronze:** dados brutos extraídos da fonte
 - **Silver:** dados tratados, limpos e padronizados
@@ -58,15 +59,16 @@ consistência.
 
 ## 🗂️ Estrutura do Repositório
 
+```text
 .
-├── 00_setup_environment
-├── 01_extract_credit_risk
-├── 02_transform_credit_risk
-├── 03_load_dw_credit_risk
-├── 04_analysis_credit_risk
+├── 00_setup_environment.ipynb
+├── 01_extract_credit_risk.ipynb
+├── 02_transform_credit_risk.ipynb
+├── 03_load_dw_credit_risk.ipynb
+├── 04_analysis_credit_risk.ipynb
 ├── AUTOAVALIACAO.md
 └── README.md
-
+```
 
 ### Descrição dos Notebooks
 
@@ -134,8 +136,9 @@ juros e tempo de emprego apresentam forte relação com a inadimplência.
 A autoavaliação do projeto, incluindo dificuldades encontradas, aprendizados e
 trabalhos futuros, está disponível no arquivo:
 
+```text
 AUTOAVALIACAO.md
-
+```
 
 ---
 
