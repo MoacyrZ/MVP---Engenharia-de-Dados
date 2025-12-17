@@ -72,19 +72,19 @@ consistência.
 
 ### Descrição dos Notebooks
 
-- **00_setup_environment**  
+- **00_setup_environment.ipynb**  
   Configuração inicial do ambiente no Databricks (catálogo, schemas e volumes).
 
-- **01_extract_credit_risk**  
+- **01_extract_credit_risk.ipynb**  
   Extração dos dados brutos e carga na camada Bronze.
 
-- **02_transform_credit_risk**  
+- **02_transform_credit_risk.ipynb**  
   Limpeza, padronização e tratamento dos dados (camada Silver).
 
-- **03_load_dw_credit_risk**  
+- **03_load_dw_credit_risk.ipynb**  
   Construção do Data Warehouse em **esquema estrela** (camada Gold).
 
-- **04_analysis_credit_risk**  
+- **04_analysis_credit_risk.ipynb**  
   Análise da qualidade dos dados e resposta às perguntas de negócio.
 
 ---
