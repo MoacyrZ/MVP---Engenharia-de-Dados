@@ -61,6 +61,12 @@ consistência.
 
 ```text
 .
+├── evidencias/
+│   ├── 01_pipeline_execucao_sucesso.png
+│   ├── 02_bronze_credit_risk.png
+│   ├── 03_silver_credit_risk.png
+│   ├── 04_gold_fato_credit_risk.png
+│   └── README.md
 ├── 00_setup_environment.ipynb
 ├── 01_extract_credit_risk.ipynb
 ├── 02_transform_credit_risk.ipynb
